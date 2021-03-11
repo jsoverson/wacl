@@ -1,0 +1,14 @@
+[package]
+authors = ["Jarrod Overson <jsoverson@gmail.com>"]
+edition = "2018"
+name = "wacl"
+version = "0.1.0"
+
+[dependencies]
+actix-rt = "1.1.1"
+env_logger = "*"
+log = "0.4.11"
+serde_json = "*"
+serdeconv = "0.4.0"
+structopt = "0.3.21"
+wasmcloud-host = "0.15.3"
